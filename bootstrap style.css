@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/******** nav bar ***********/
+#nav{
+    background-color: rgb(245, 68, 98);
+}
+
+#navbarSupportedContent a{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#navbarSupportedContent a:hover{
+    background-color: blue !important;
+    color: white !important;
+}
+/******** (section-1) ***********/
+#content{
+    background:rgb(180, 178, 178);
+    
+}
+#card{
+    border: none !important;
+    box-shadow: 15px 15px 10px black;
+     border-radius: 20px;                            
+}
+#card:hover{
+    box-shadow: inset 5px 5px 10px black;
+}
+#card-body:hover{
+    background-color: yellow;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: rgb(43, 42, 42);
+}
+/******** (section-2) ***********/
+.card{
+    border: none !important;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+/******** footer ***********/
+#footer{
+    color: white;
+}
+#footer li{
+    color: white;
+}
+#button:hover{
+    background-color: yellow;
+    color: black;
+}
+#footer h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/******** icons ***********/
+#footer i{
+    color: yellow;
+    text-decoration: none;
+}
+#footer i:hover{
+    color: blue;
+}
+
+
+
+
+
